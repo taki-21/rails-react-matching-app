@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   }
 }))
 
+// ヘッダー
 const Header: React.FC = () => {
   const { loading, isSignedIn } = useContext(AuthContext)
   const classes = useStyles()
